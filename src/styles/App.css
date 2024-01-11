@@ -1,0 +1,41 @@
+body{
+background-color: lightgray;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+position: relative;
+  min-height: 100vh;
+}
+
+.nav-bar{ background-color: #deb915;
+  overflow: hidden;
+ box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+  .logo-nav {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 38px;
+}
+
+.btn-new{
+ align-content: center;
+ background: white;
+    width: 500px;
+    height: 50px;
+      margin: 25px;
+    border-radius: 25px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-radius: 25px;
+}
+.btn-new-wrap{
+      display: flex;
+    justify-content: center;
+}
+
+.new-note-row{
+  display: flex;
+  justify-content: center;
+}
